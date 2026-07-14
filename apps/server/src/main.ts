@@ -1,6 +1,6 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
-import { TrpcRouter } from './trpc/trpc.router';
+import { TrpcRouter } from '@server/trpc/trpc.router';
 import { ConfigService } from '@nestjs/config';
 import { json, urlencoded } from 'express';
 import { NestExpressApplication } from '@nestjs/platform-express';
